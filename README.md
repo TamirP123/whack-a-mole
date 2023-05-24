@@ -194,8 +194,8 @@ This function simply calls the `showAndHide()` function with a specific delay an
 
 ```js
 function showUp() {
-  let delay = 0; // TODO: call setDelay()
-  const hole = 0; // TODO: call chooseHole()
+  let delay = setDelay(); // TODO: call setDelay()
+  const hole = chooseHole(); // TODO: call chooseHole()
   return showAndHide(hole, delay);
 }
 ```
